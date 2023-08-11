@@ -1,0 +1,20 @@
+const HOST="https://dummyjson.com/"
+const HOST3="http://52.66.104.85:8081/"
+const HOST2="http://dev-api.hwayz.com:8081/"
+const HOST1="https://dev-api.hwayz.com/"
+
+export const FETCH_CREATE_ORDER=HOST1+"order/external/create"
+export const FETCH_ORDER_DETAIL=HOST1+"order/external"
+export const CREATE_USER=HOST1+"customer/registration"
+export const FETCH_USER_OTP=HOST1
+export const FETCH_USER_OTP_VERIFICATION=HOST1
+export const FETCH_ROUTE_AND_DETAIL=HOST1+"travelpartner/vehicle/qrcode"
+export const FETCH_RESTAURANTS_AND_STOPS=HOST1+"travelpartner"
+export const FETCH_RESTAURANTS_DETAILS=HOST1+"travelpartner"
+export const FETCH_ADD_TO_CART=HOST1
+export const FETCH_RESTAURANTS=HOST1+"travelpartner/vehicle/qrcode"
+export const RESTAURANT_BASE=HOST1+"restaurant"
+export const FETCH_CUSTOMER_ORDER_DETAIL=HOST1
+export const FETCH_CANCEL_ORDER=HOST1
+export const FETCH_PAYMENT_INFO=HOST1+"payment/session"
+export const GET_STORES_LIST=HOST+"posts"
